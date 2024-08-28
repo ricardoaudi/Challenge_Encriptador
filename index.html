@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">a</div>
+    </header>
+    <main class="container">
+        <div class="input-section">
+            <textarea id="input-text" placeholder="Ingrese el texto aquí"></textarea>
+            <p class="note">⚠️ Solo letras minúsculas y sin acentos</p>
+            <div class="buttons">
+                <button id="encrypt-btn">Encriptar</button>
+                <button id="decrypt-btn">Desencriptar</button>
+                <button id="clear-btn">Limpiar</button>
+            </div>
+        </div>
+        <div class="output-section">
+            <div id="output-placeholder">
+                <img src="./assets/placeholder.png" alt="Placeholder Image">
+                <p>Ningún mensaje fue encontrado</p>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <textarea id="output-text" readonly></textarea>
+            <button id="copy-btn">Copiar</button>
+        </div>
+    </main>
+    <footer>
+        <p>Realizado por Ricardo Audi con ayuda de ChatGPT</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
